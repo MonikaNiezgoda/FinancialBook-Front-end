@@ -84,3 +84,13 @@ input[type=submit]:focus
 	-moz-box-shadow: 0px 0px 5px 1px rgba(204,204,204,0.9);
 	box-shadow: 0px 0px 5px 1px rgba(204,204,204,0.9);
 }
+
+.title
+{
+	width: 50%;
+	height: 30px;
+	background-color: #3095d3;
+	text-align: center;
+	padding-: 5px;
+	float: left;
+}
