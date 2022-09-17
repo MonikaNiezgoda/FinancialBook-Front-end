@@ -125,6 +125,11 @@ input[type=submit]:focus
 	display: block;
 }
 
+.title2:hover
+{
+	background-color:#68b872;
+}
+
 a.titlelinkhtml
 {
 	color: black;
