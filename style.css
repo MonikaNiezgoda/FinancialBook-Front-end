@@ -86,6 +86,34 @@ input[type=submit]:focus
 	box-shadow: 0px 0px 5px 1px rgba(204,204,204,0.9);
 }
 
+input[type=button]
+{
+	width: 300px;
+	background-color: #68B872;
+	font-size:20px;
+	color: black;
+	padding: 15px 10px;
+	margin-top: 10px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	letter-spacing: 2px;
+	outline: none;
+	margin-top: 20px;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+input[type=button]:hover
+{
+	background-color: #57A761;
+}
+
+input[type=button]:focus
+{
+	-webkit-box-shadow: 0px 0px 5px 1px rgba(204,204,204,0.9);
+	-moz-box-shadow: 0px 0px 5px 1px rgba(204,204,204,0.9);
+	box-shadow: 0px 0px 5px 1px rgba(204,204,204,0.9);
+}
 .title
 {
 	width: 120px;
@@ -213,11 +241,17 @@ select {
 	font-size: 14px;
 }
 
+select:focus
+{
+	-webkit-box-shadow: 0px 0px 3px 1px rgba(204,204,204,0.9);
+	-moz-box-shadow: 0px 0px 3px 1px rgba(204,204,204,0.9);
+	box-shadow: 0px 0px 3px 1px rgba(204,204,204,0.9);
+}
 textarea
 {
-padding:5px;
-margin: 0;	
--webkit-border-radius:3px;
+	padding:5px;
+	margin: 0;	
+	-webkit-border-radius:3px;
     -moz-border-radius:3px;
     border-radius:3px;
 	cursor:pointer;
@@ -234,4 +268,10 @@ textarea:focus
 	background-color: #e9f3e9;
 	color: #202020;
 	cursor:pointer;
+}
+
+input[type=radio]
+{
+	cursor:pointer;
+	display: inline-block;
 }
