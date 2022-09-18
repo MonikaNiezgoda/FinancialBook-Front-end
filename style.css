@@ -28,6 +28,7 @@ body
 	margin-bottom: 40px;
 }
 
+
 input[type=text] ,
 input[type=password]
 {
@@ -200,7 +201,7 @@ input[type=date]:focus
 }
 
 select {
-    padding:3px;
+    padding:0;
     margin: 0;
     -webkit-border-radius:3px;
     -moz-border-radius:3px;
@@ -209,5 +210,28 @@ select {
     outline:none;
     display: inline-block;
     cursor:pointer;
-	weight: 180px;
+	font-size: 14px;
+}
+
+textarea
+{
+padding:5px;
+margin: 0;	
+-webkit-border-radius:3px;
+    -moz-border-radius:3px;
+    border-radius:3px;
+	cursor:pointer;
+	box-sizing: 260px;
+	outline: none;
+	resize:none;
+}
+
+textarea:focus
+{
+	-webkit-box-shadow: 0px 0px 3px 1px rgba(204,204,204,0.9);
+	-moz-box-shadow: 0px 0px 3px 1px rgba(204,204,204,0.9);
+	box-shadow: 0px 0px 3px 1px rgba(204,204,204,0.9);
+	background-color: #e9f3e9;
+	color: #202020;
+	cursor:pointer;
 }
