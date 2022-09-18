@@ -22,13 +22,45 @@
 		
 			<form>
 				
-				<label>Kwota <input type="number" min="0.01" value="0.01" step="0.01"></label>
+				<label>Kwota: <input type="number" min="0.01" value="0.01" step="0.01"></label>
 				<br/> <br/> 
-				<label>Data <input type="date">
-				<label>
+				<label>Data: <input type="date"></label>
 				<br/> <br/> 
-				Hasło<input type="password">
+				<label>Sposób płatności: </label>
+				<br/>
+				<div class="col">
+					<div><label><input type="radio" name="nadwozie" checked> Gotówka</label></div>
+					<div><label><input type="radio" name="nadwozie"> Karta debetowa</label></div>
+					<div><label><input type="radio" name="nadwozie"> Karta kredytowa</label></div>
+				</div>
 				<br/> <br/> 
+				
+				
+				
+					<label for="kategoria"> Kategoria: </label>
+					<div class="row">
+					<select id="kategoria">
+						<option selected> Jedzenie</option>
+						<option> Mieszkanie</option>
+						<option> Transport</option>
+						<option> Opieka zdrowotna</option>
+						<option> Ubranie</option>
+						<option> Higiena</option>
+						<option> Dzieci</option>
+						<option> Rozrywka</option>
+						<option> Wycieczka</option>
+						<option> Szkolenia</option>
+						<option> Książki</option>
+						<option> Oszczędności</option>
+						<option> Na złotą jesień, czyli emeryturę</option>
+						<option> Spłata długów</option>
+						<option> Darowizna</option>
+						<option> Inne wydatki</option>
+						
+					</select>
+					
+				</div>
+				
 				<input type="submit"value="Dodaj">
 				
 			</form>
