@@ -135,3 +135,28 @@ a.titlelinkhtml
 	color: black;
 	text-decoration: none;
 }
+
+input[type=number]
+{
+	width: 120px;
+	background-color: #E3E3E3;
+	color: #555;
+	border: 2px solid #ddd;
+	border-radius: 3px;
+	font-size: 18px;
+	padding:5px;
+	box-sizing: border-box;
+	outline: none;
+	margin-top: 10px;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+input[type=number]:focus
+{
+	-webkit-box-shadow: 0px 0px 3px 1px rgba(204,204,204,0.9);
+	-moz-box-shadow: 0px 0px 3px 1px rgba(204,204,204,0.9);
+	box-shadow: 0px 0px 3px 1px rgba(204,204,204,0.9);
+	border: 2px solid #a5cda5;
+	background-color: #e9f3e9;
+	color: #202020;
+}
